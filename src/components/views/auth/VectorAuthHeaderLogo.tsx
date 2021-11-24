@@ -18,12 +18,13 @@ limitations under the License.
 import React from 'react';
 import SdkConfig from 'matrix-react-sdk/src/SdkConfig';
 
+
 export default class VectorAuthHeaderLogo extends React.PureComponent {
     static replaces = 'AuthHeaderLogo';
 
     render() {
         const brandingConfig = SdkConfig.get().branding;
-        let logoUrl = "themes/element/img/logos/element-logo.svg";
+        let logoUrl = "https://mcusercontent.com/4ec4547a3adf948d7f8e18171/images/710955a2-1d3b-03c7-2a12-80db678d6828.png";
         if (brandingConfig && brandingConfig.authHeaderLogoUrl) {
             logoUrl = brandingConfig.authHeaderLogoUrl;
         }
