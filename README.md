@@ -1,5 +1,10 @@
-Element
+Element-Comantri
 =======
+Changes Made:
+- added config file
+- changed VectorAuthHeaderLogo to comatri's logo
+- changed VectorAuthPage background to comatri's background
+- 
 
 Element (formerly known as Vector and Riot) is a Matrix web client built using the [Matrix
 React SDK](https://github.com/matrix-org/matrix-react-sdk).
